@@ -34,4 +34,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo secret MY_SECRET_1 : ${secret.MY_SECRET_1}
+          echo secret MY_SECRET_1 : ${secrets.MY_SECRET_1}
